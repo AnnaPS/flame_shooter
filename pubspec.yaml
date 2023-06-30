@@ -1,0 +1,30 @@
+name: my_game
+description: First Flame game
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.7.4
+
+dependencies:
+  equatable: ^2.0.5
+  flame: ^1.6.0
+  flame_behaviors: ^0.2.0
+
+  flutter:
+    sdk: flutter
+
+ 
+
+dev_dependencies:
+
+
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
